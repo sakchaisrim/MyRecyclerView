@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/item_state"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+      <ImageView android:id="@+id/imageView" android:src="@drawable/ic_1"
+                 android:layout_gravity="center_vertical"/>
+
+      <TextView android:id="@+id/textView_jp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Seiri"
+                android:layout_marginLeft="10dp"
+                android:textColor="#007"
+                android:textSize="20sp"/>
+
+      <TextView android:id="@+id/textView_th"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:textColor="#aaa"
+                android:text="สะสาง"
+                android:textSize="18sp"/>
+
+</GridLayout>
